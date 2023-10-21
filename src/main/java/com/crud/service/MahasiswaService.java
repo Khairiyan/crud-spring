@@ -17,4 +17,5 @@ public interface MahasiswaService {
     public void deleteMahasiswa(int id);
 
     public Page<MahasiswaModel> findPaginated(int pageNo, int pageSize, String sortField, String sortDirection);
+
 }
